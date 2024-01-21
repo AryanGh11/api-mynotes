@@ -1,0 +1,6 @@
+{
+  "watch": ["source"],
+  "ext": "ts js json",
+  "ignore": ["node_modules"],
+  "exec": "ts-node -r dotenv/config source/server.ts"
+}

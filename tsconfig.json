@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "rootDir": "./source",
+    "outDir": "./build",
+    "target": "es2021",
+    "skipLibCheck": true,
+    "strict": true,
+    "lib": ["es2021"]
+  },
+  "include": ["source", "source/migrate-db"],
+  "exclude": ["node_modules"]
+}
